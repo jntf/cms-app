@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_section_sections",
+  "info": {
+    "displayName": "section",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "disposition": {
+      "type": "enumeration",
+      "enum": [
+        "leftPicture",
+        "centerPicture",
+        "rightPicture",
+        "withoutPicture"
+      ],
+      "default": "withoutPicture",
+      "required": true
+    }
+  }
+}

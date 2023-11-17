@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ask_informations",
+  "info": {
+    "singularName": "ask-information",
+    "pluralName": "ask-informations",
+    "displayName": "askInformation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "tel": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "subject": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

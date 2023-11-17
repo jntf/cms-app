@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_contact_contacts",
+  "info": {
+    "displayName": "contact",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nameCompany": {
+      "type": "string"
+    },
+    "addressCompany": {
+      "type": "text"
+    },
+    "cityCompany": {
+      "type": "string"
+    },
+    "postCodeCompany": {
+      "type": "integer",
+      "required": true
+    },
+    "emailCompany": {
+      "type": "email"
+    },
+    "phoneCompany": {
+      "type": "string",
+      "maxLength": 10
+    }
+  }
+}

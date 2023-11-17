@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_various_opening_dates",
+  "info": {
+    "displayName": "openingDate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "day": {
+      "type": "enumeration",
+      "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "openMorning": {
+      "type": "time",
+      "default": "00:00"
+    },
+    "openAfternoon": {
+      "type": "time"
+    },
+    "closeMorning": {
+      "type": "time"
+    },
+    "closeAfternoon": {
+      "type": "time"
+    }
+  }
+}
